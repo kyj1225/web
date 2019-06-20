@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+    body{
+      background-color: #e39797;
+      margin:0;
+    }
+    #scene {
+      height: 1000px;
+      border: 0px solid red;
+      background-size: cover;
+    }
+
+    .title{
+      border: 0px solid red;
+      position: relative;
+      left:50%;
+      top:50%;
+      transform: translatex(-50%) translateY(-50%);
+      text-align: center;
+      }
+      .one{background-image: url(img/i01.png);}
+      /*---NAV--*/
+      .wrap{
+        position: absolute;
+        top: 0px;
+        height: 100px;
+        width: 100%;
+        z-index: 10;
+      }
+      .nav{
+        display: inline-block;
+        position: relative;
+        left:53%;
+        top:50%;
+        transform: translatex(-50%) translateY(-50%);
+        text-align: center;
+      }
+      .space{
+        margin-left: 8rem;
+      }
+      #type{
+        font-family: 'Playfair Display', serif;
+        font-size: 1.6rem;
+      }
+      a, a:link :visited :active{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #e6e1a2;
+      }
+      /*footer */
+      footer{
+        position: absolute;
+        z-index: 1000;
+        height: 100px;
+        width: 100%;
+        top: 2100px;
+      }
+      .footer{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        color: white;
+        }
+        .l01{
+          border: 0px solid red;
+          background-size: cover;
+          position: relative;
+          left: 78%;
+          top: 100px;
+          transform:  translateX(-50%)  ;
+        }
+
+    </style>
+  </head>
+  <body>
+    <nav class="wrap">
+      <div id="type"class="nav">
+      <a href="index.html">Home</a><span class="space"></span>
+      <a href="index1.html">Store Story</a><span class="space"></span>
+      <a href="index2.html">Location</a><span class="space"></span>
+      <a href="p03.html">Menu</a><span class="space"></span>
+      <a href="p04.html">Goods</a><span class="space"></span>
+    </nav>
+    <section id="scene" class="one">
+      <div class="title">
+        </div>
+    </section>
+    <section>
+      <div class="l01">
+    <a href="https://map.naver.com/local/siteview.nhn?code=11591445"><img src="img/l01.png" alt="">/</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        Copyright 2019 PIEONA Inc.  All right reserved.
+      </div>
+    </footer>
+
+  </body>
+</html>
