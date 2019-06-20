@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+    body{
+      margin:0;}
+    #scene {
+      height: 470px;
+      border: 0px solid red;
+      background-size: cover;
+    }
+    .title{
+      border: 0px solid red;
+      position: relative;
+      left:50%;
+      top:30%;
+      transform: translatex(-50%) translateY(-50%);
+      text-align: center;
+      }
+      .one{background-image: url(img/m01.png);}
+      .two{background-image: url(img/m02.png);}
+      .three{background-image: url(img/m03.png);}
+      .four{background-image: url(img/m04.png);}
+      .five{background-image: url(img/m05.png);}
+      .six{background-image: url(img/m06.png);}
+
+      /*---NAV--*/
+      .wrap{
+        position: absolute;
+        top: 0px;
+        height: 100px;
+        width: 100%;
+        z-index: 10;
+      }
+      .nav{
+        display: inline-block;
+        position: relative;
+        left:53%;
+        top:50%;
+        transform: translatex(-50%) translateY(-50%);
+        text-align: center;
+      }
+      .space{
+        margin-left: 8rem;
+      }
+      #type{
+        font-family: 'Playfair Display', serif;
+        font-size: 1.6rem;
+      }
+      a, a:link :visited :active{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #e6e1a2;
+      }
+      /*footer */
+      footer{
+        position: absolute;
+        z-index: 1000;
+        height: 100px;
+        width: 100%;
+        top: 2810px;
+      }
+      .footer{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        color: black;
+        }
+        .logo {
+          position: absolute;
+          left: 45%;
+          top: 70px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="wrap">
+      <div id="type"class="nav">
+      <a href="index.html">Home</a><span class="space"></span>
+      <a href="index1.html">Store Story</a><span class="space"></span>
+      <a href="index2.html">Location</a><span class="space"></span>
+      <a href="index3.html">Menu</a><span class="space"></span>
+      <a href="index4.html">Goods</a><span class="space"></span>
+    </nav>
+    <section id="scene" class="one">
+      <div class="title">
+        <a href="index.html">
+      <div class="logo">
+        <img src="img/s_t_01.png">
+      </div>
+      </a>
+      </div>
+    </section>
+    <section id="scene" class="two">
+    </section>
+    <section id="scene" class="three">
+    </section>
+    <section id="scene" class="four">
+    </section>
+    <section id="scene" class="five">
+    </section>
+    <section id="scene" class="six">
+    </section>
+
+    <footer>
+      <div class="footer">
+        Copyright 2019 PIEONA Inc.  All right reserved.
+      </div>
+    </footer>
+
+  </body>
+</html>
